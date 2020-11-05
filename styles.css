@@ -1,0 +1,208 @@
+body {
+    font-family: "Concert One";
+    font-size: 23px;
+    background-color: white;
+  }
+  
+  .baga {
+    display: none;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(109, 103, 103);
+  }
+  
+  .contain {
+    background: rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    background-image: url(/images/BG1\ \(1\).jpg);
+  }
+  
+  img {
+    width: 250px;
+    border-radius: 80px;
+  }
+  
+  .navbar ul {
+    margin-right: 90px;
+    list-style: none;
+  }
+  
+  .navbar li {
+    float: right;
+    cursor: pointer;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(119, 117, 117, 0.932);
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 15px;
+  }
+  .welcome-section ul {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .welcome-section ul li {
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .skills li {
+    display: block;
+  }
+  
+  .fa {
+    float: left;
+    padding-right: 10px;
+  }
+  
+  #projects h3 {
+    text-align: center;
+  }
+  
+  #resume {
+    padding-left: 50px;
+    margin-top: 70px;
+  }
+  
+  .skills .t {
+    padding-left: 50px;
+  }
+  
+  .skills p {
+    padding-left: 65px;
+  }
+  .experience .t {
+    padding-left: 50px;
+  }
+  .experience p {
+    padding-left: 65px;
+  }
+  
+  .skills {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(119, 117, 117, 0.452);
+  }
+  
+hobbies li{
+  padding: 0px 0px 10px 50px;
+}
+
+  .skills:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .data {
+    padding: 2px 16px;
+  }
+  .baga {
+    display:none ;
+  }
+  
+ 
+  
+  .profile-link {
+    text-align: center;
+  }
+  
+  .contact-link ul {
+    display: block;
+  }
+  footer {
+    bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(119, 117, 117, 0.932);
+    padding-bottom: 10px;
+    width: 100%;
+    color: rgba(5, 5, 5, 0.575);
+    font-size: 17px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .baga {
+      display: inline-block;
+      font-size: 35px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: grey;
+      background-color: rgb(225, 231, 229);
+      cursor: pointer;
+      width: 30px;
+      margin-right: 12px;
+    }
+    .navbar li {
+      display: none;
+    }
+
+    .row{
+      display: flex;
+      flex-direction:column;
+      
+    }
+
+  }
+  
+  .list-link:hover {
+    opacity: 0.7;
+  }
+  .list-link {
+    padding: 15px;
+  }
+  
+  .social-list {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    list-style: none;
+  }
+
+  .column {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 250px;
+    padding: 15px;
+    background-color: rgba(119, 117, 117, 0.452);
+    border-radius: 20px;
+    margin: 20px;
+    
+  }
+
+  .column:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .row {
+    margin: 0 -5px;
+    display: flex;
+  }
+  
+  #project h3{
+    text-align: center;
+  }
+  #projects{
+    margin: 100px 0px 50px 0px;
+
+  }
+  
+
+  .card {
+    padding: 16px;
+    text-align: center;
+  }
