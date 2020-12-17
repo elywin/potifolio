@@ -57,6 +57,8 @@ body {
     display: inline-block;
     padding: 15px;
   }
+
+  
   
   .skills li {
     display: block;
@@ -70,6 +72,7 @@ body {
   #projects h3 {
     text-align: center;
   }
+  
   
   #resume {
     padding-left: 50px;
@@ -206,3 +209,4 @@ hobbies li{
     padding: 16px;
     text-align: center;
   }
+
